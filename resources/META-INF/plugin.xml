@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>pl.kpiska.jsondiff</id>
   <name>jsondiff</name>
-  <version>0.3</version>
+  <version>0.2</version>
   <vendor email="kamil.piska@gmail.com" url="https://github.com/kpiska/jsondiff">https://github.com/kpiska/jsondiff</vendor>
 
   <description><![CDATA[
@@ -9,9 +9,8 @@
     ]]></description>
 
   <change-notes><![CDATA[
-      0.3 Handle NPE with VirtualFile having no extension
-      0.2 Handle JSON null values
-      0.1 First version od plugin
+      0.2 Handle JSON null values, npe when pick directory fix
+      0.1 First version of plugin
     ]]>
   </change-notes>
 
