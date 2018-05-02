@@ -126,7 +126,7 @@ public class JsonDiffAction extends CompareFilesAction {
   }
 
   private boolean isJsonVirtualFile(VirtualFile file) {
-    return "json".compareToIgnoreCase(file.getExtension()) == 0;
+    return file.getExtension() != null && "json".compareToIgnoreCase(file.getExtension()) == 0;
   }
 
   private VirtualFile getOtherFile(Project project, VirtualFile file) {
